@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Availability" representedClassName="Availability" syncable="YES">
+        <attribute name="fridayEarlyAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fridayEarlyHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fridayEarlyMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fridayLateAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fridayLateHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fridayLateMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mondayEarlyAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mondayEarlyHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mondayEarlyMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mondayLateAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mondayLateHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mondayLateMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saturdayEarlyAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saturdayEarlyHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saturdayEarlyMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saturdayLateAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saturdayLateHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saturdayLateMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sundayEarlyAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sundayEarlyHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sundayEarlyMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sundayLateAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sundayLateHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sundayLateMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thursdayEarlyAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thursdayEarlyHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thursdayEarlyMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thursdayLateAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thursdayLateHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thursdayLateMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tuesdayEarlyAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tuesdayEarlyHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tuesdayEarlyMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tuesdayLateAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tuesdayLateHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tuesdayLateMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wednesdayEarlyAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wednesdayEarlyHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wednesdayEarlyMin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wednesdayLateAm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wednesdayLateHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wednesdayLateMin" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CertificationInformation" representedClassName="CertificationInformation" syncable="YES">
+        <attribute name="dateIssued" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expiration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="issuedBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stateIssued" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="certificationName" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Certifications" inverseName="details" inverseEntity="Certifications" syncable="YES"/>
+    </entity>
+    <entity name="Certifications" representedClassName="Certifications" syncable="YES">
+        <attribute name="certificationID" attributeType="String" syncable="YES"/>
+        <attribute name="certificationName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="details" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CertificationInformation" inverseName="certificationName" inverseEntity="CertificationInformation" syncable="YES"/>
+    </entity>
+    <entity name="CollegeInformation" representedClassName="CollegeInformation" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cityAndState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="graduated" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearsAttended" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="college" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EducationCollege" inverseName="collegeDetails" inverseEntity="EducationCollege" syncable="YES"/>
+    </entity>
+    <entity name="Degree" representedClassName="Degree" syncable="YES">
+        <attribute name="degreeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearCompleted" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="college" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EducationCollege" inverseName="degree" inverseEntity="EducationCollege" syncable="YES"/>
+    </entity>
+    <entity name="EducationCollege" representedClassName="EducationCollege" syncable="YES">
+        <attribute name="college" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="collegeDetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CollegeInformation" inverseName="college" inverseEntity="CollegeInformation" syncable="YES"/>
+        <relationship name="degree" optional="YES" maxCount="1" deletionRule="Nullify" ordered="YES" destinationEntity="Degree" inverseName="college" inverseEntity="Degree" syncable="YES"/>
+    </entity>
+    <entity name="EducationHighschool" syncable="YES">
+        <attribute name="attribute" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EmplomerInformation" representedClassName="EmplomerInformation" syncable="YES">
+        <attribute name="address1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cityAndState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="industry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="managerContact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="managerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reasonForLeaving" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="employer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Employment" inverseName="employerdetails" inverseEntity="Employment" syncable="YES"/>
+    </entity>
+    <entity name="Employment" representedClassName="Employment" syncable="YES">
+        <attribute name="employer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="positionTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="employerdetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EmplomerInformation" inverseName="employer" inverseEntity="EmplomerInformation" syncable="YES"/>
+        <relationship name="positiondetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PositionInformation" inverseName="position" inverseEntity="PositionInformation" syncable="YES"/>
+    </entity>
+    <entity name="Personal" representedClassName="Personal" syncable="YES">
+        <attribute name="address1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cityAndState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="middleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PositionInformation" representedClassName="PositionInformation" syncable="YES">
+        <attribute name="duties" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endPay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startPay" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="position" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Employment" inverseName="positiondetails" inverseEntity="Employment" syncable="YES"/>
+    </entity>
+    <entity name="ReferenceInformation" representedClassName="ReferenceInformation" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relationship" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearsKnows" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="referenceName" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="References" inverseName="details" inverseEntity="References" syncable="YES"/>
+    </entity>
+    <entity name="References" representedClassName="References" syncable="YES">
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="details" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ReferenceInformation" inverseName="referenceName" inverseEntity="ReferenceInformation" syncable="YES"/>
+    </entity>
+    <entity name="Skills" representedClassName="Skills" syncable="YES">
+        <attribute name="nameOfSkill" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Availability" positionX="-218" positionY="-7" width="128" height="673"/>
+        <element name="CertificationInformation" positionX="259" positionY="-216" width="128" height="118"/>
+        <element name="Certifications" positionX="70" positionY="-216" width="128" height="88"/>
+        <element name="CollegeInformation" positionX="97" positionY="293" width="128" height="178"/>
+        <element name="Degree" positionX="-72" positionY="423" width="128" height="88"/>
+        <element name="EducationCollege" positionX="-63" positionY="287" width="128" height="88"/>
+        <element name="EducationHighschool" positionX="-72" positionY="74" width="128" height="58"/>
+        <element name="EmplomerInformation" positionX="259" positionY="-63" width="128" height="193"/>
+        <element name="Employment" positionX="79" positionY="-67" width="128" height="103"/>
+        <element name="Personal" positionX="-216" positionY="-297" width="128" height="210"/>
+        <element name="PositionInformation" positionX="259" positionY="146" width="128" height="133"/>
+        <element name="ReferenceInformation" positionX="268" positionY="-369" width="128" height="133"/>
+        <element name="References" positionX="72" positionY="-369" width="128" height="73"/>
+        <element name="Skills" positionX="-72" positionY="-297" width="128" height="58"/>
+    </elements>
+</model>
