@@ -24,8 +24,6 @@
 		032FED85197F258D00627CF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032FED84197F258D00627CF5 /* UIKit.framework */; };
 		032FED87197F258D00627CF5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032FED86197F258D00627CF5 /* CoreData.framework */; };
 		032FED8D197F258D00627CF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032FED8B197F258D00627CF5 /* InfoPlist.strings */; };
-		032FED8F197F258D00627CF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 032FED8E197F258D00627CF5 /* main.m */; };
-		032FED93197F258D00627CF5 /* Pocket_ResumeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 032FED92197F258D00627CF5 /* Pocket_ResumeAppDelegate.m */; };
 		032FED96197F258D00627CF5 /* Pocket_Resume.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 032FED94197F258D00627CF5 /* Pocket_Resume.xcdatamodeld */; };
 		032FED98197F258D00627CF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032FED97197F258D00627CF5 /* Images.xcassets */; };
 		032FED9F197F258E00627CF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032FED9E197F258E00627CF5 /* XCTest.framework */; };
@@ -46,6 +44,9 @@
 		03923DEE19847EB600BBFBB3 /* PersonalEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03923DED19847EB600BBFBB3 /* PersonalEditTableViewController.m */; };
 		03D8587B19A2F94700FA27EC /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D8587A19A2F94700FA27EC /* InitialViewController.m */; };
 		03D8587E19A3BFC900FA27EC /* SkillsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D8587D19A3BFC900FA27EC /* SkillsTableViewController.m */; };
+		670ED55C1C4204FA00C6034B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670ED55B1C4204FA00C6034B /* AppDelegate.swift */; };
+		67623FDF1C41FE7C00F9CC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67623FDE1C41FE7C00F9CC9B /* Main.storyboard */; };
+		67623FE11C41FE9400F9CC9B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67623FE01C41FE9400F9CC9B /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +91,6 @@
 		032FED86197F258D00627CF5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		032FED8A197F258D00627CF5 /* Pocket Resume-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pocket Resume-Info.plist"; sourceTree = "<group>"; };
 		032FED8C197F258D00627CF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		032FED8E197F258D00627CF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		032FED90197F258D00627CF5 /* Pocket Resume-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pocket Resume-Prefix.pch"; sourceTree = "<group>"; };
 		032FED91197F258D00627CF5 /* Pocket_ResumeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pocket_ResumeAppDelegate.h; sourceTree = "<group>"; };
 		032FED92197F258D00627CF5 /* Pocket_ResumeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pocket_ResumeAppDelegate.m; sourceTree = "<group>"; };
@@ -124,6 +124,9 @@
 		03D8587A19A2F94700FA27EC /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InitialViewController.m; path = "View Controllers/InitialViewController.m"; sourceTree = "<group>"; };
 		03D8587C19A3BFC900FA27EC /* SkillsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkillsTableViewController.h; path = "View Controllers/SkillsTableViewController.h"; sourceTree = "<group>"; };
 		03D8587D19A3BFC900FA27EC /* SkillsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkillsTableViewController.m; path = "View Controllers/SkillsTableViewController.m"; sourceTree = "<group>"; };
+		670ED55B1C4204FA00C6034B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67623FDE1C41FE7C00F9CC9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		67623FE01C41FE9400F9CC9B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +225,7 @@
 		032FED88197F258D00627CF5 /* Pocket Resume */ = {
 			isa = PBXGroup;
 			children = (
+				670ED55B1C4204FA00C6034B /* AppDelegate.swift */,
 				032FED91197F258D00627CF5 /* Pocket_ResumeAppDelegate.h */,
 				032FED92197F258D00627CF5 /* Pocket_ResumeAppDelegate.m */,
 				032FED97197F258D00627CF5 /* Images.xcassets */,
@@ -236,8 +240,8 @@
 			children = (
 				032FED8A197F258D00627CF5 /* Pocket Resume-Info.plist */,
 				032FED8B197F258D00627CF5 /* InfoPlist.strings */,
-				032FED8E197F258D00627CF5 /* main.m */,
 				032FED90197F258D00627CF5 /* Pocket Resume-Prefix.pch */,
+				67623FE01C41FE9400F9CC9B /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -339,6 +343,7 @@
 			isa = PBXGroup;
 			children = (
 				032FEDB5197F25B400627CF5 /* Storyboard.storyboard */,
+				67623FDE1C41FE7C00F9CC9B /* Main.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -388,7 +393,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = "Pocket Resume";
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Joshua Alvarado";
 				TargetAttributes = {
 					032FED9C197F258E00627CF5 = {
@@ -422,6 +428,8 @@
 				032FED8D197F258D00627CF5 /* InfoPlist.strings in Resources */,
 				032FED98197F258D00627CF5 /* Images.xcassets in Resources */,
 				032FEDB6197F25B400627CF5 /* Storyboard.storyboard in Resources */,
+				67623FE11C41FE9400F9CC9B /* Launch Screen.storyboard in Resources */,
+				67623FDF1C41FE7C00F9CC9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +451,6 @@
 				032E497919900936005D9CE9 /* CollegeInformation.m in Sources */,
 				032E4963198E9E09005D9CE9 /* References.m in Sources */,
 				032E497619900936005D9CE9 /* EducationCollege.m in Sources */,
-				032FED8F197F258D00627CF5 /* main.m in Sources */,
 				032E496D19900936005D9CE9 /* CertificationInformation.m in Sources */,
 				032E497C19900937005D9CE9 /* Skills.m in Sources */,
 				0331967C19A588AB009635A9 /* Availability.m in Sources */,
@@ -453,7 +460,6 @@
 				034D708F198D55D100EC6270 /* AvailabiltyTableViewController.m in Sources */,
 				032E496A198EA5B4005D9CE9 /* ReferenceInformationViewController.m in Sources */,
 				0351556219A444EC00FEB672 /* PositionInformation.m in Sources */,
-				032FED93197F258D00627CF5 /* Pocket_ResumeAppDelegate.m in Sources */,
 				032E498519900937005D9CE9 /* Personal.m in Sources */,
 				0351555F19A444EB00FEB672 /* Employment.m in Sources */,
 				032FED96197F258D00627CF5 /* Pocket_Resume.xcdatamodeld in Sources */,
@@ -461,6 +467,7 @@
 				0331967619A50BCE009635A9 /* CertificationsTableViewController.m in Sources */,
 				0331967219A4F266009635A9 /* CertificationsInformationTableViewController.m in Sources */,
 				032E497319900936005D9CE9 /* Degree.m in Sources */,
+				670ED55C1C4204FA00C6034B /* AppDelegate.swift in Sources */,
 				032E4960198E9E09005D9CE9 /* ReferenceInformation.m in Sources */,
 				03D8587B19A2F94700FA27EC /* InitialViewController.m in Sources */,
 				032E498B19900C36005D9CE9 /* MyApplicationTableViewController.m in Sources */,
@@ -525,6 +532,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -584,10 +592,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pocket Resume/Pocket Resume-Prefix.pch";
 				INFOPLIST_FILE = "Pocket Resume/Pocket Resume-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -597,9 +609,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pocket Resume/Pocket Resume-Prefix.pch";
 				INFOPLIST_FILE = "Pocket Resume/Pocket Resume-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -621,6 +636,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Pocket ResumeTests/Pocket ResumeTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -639,6 +655,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pocket Resume/Pocket Resume-Prefix.pch";
 				INFOPLIST_FILE = "Pocket ResumeTests/Pocket ResumeTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
