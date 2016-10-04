@@ -14,7 +14,6 @@
 		032FED8D197F258D00627CF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032FED8B197F258D00627CF5 /* InfoPlist.strings */; };
 		032FED96197F258D00627CF5 /* Pocket_Resume.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 032FED94197F258D00627CF5 /* Pocket_Resume.xcdatamodeld */; };
 		032FED98197F258D00627CF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032FED97197F258D00627CF5 /* Images.xcassets */; };
-		032FEDB6197F25B400627CF5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032FEDB5197F25B400627CF5 /* Storyboard.storyboard */; };
 		670ED55C1C4204FA00C6034B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670ED55B1C4204FA00C6034B /* AppDelegate.swift */; };
 		67623FDF1C41FE7C00F9CC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67623FDE1C41FE7C00F9CC9B /* Main.storyboard */; };
 		67623FE11C41FE9400F9CC9B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67623FE01C41FE9400F9CC9B /* Launch Screen.storyboard */; };
@@ -37,13 +36,11 @@
 		032FED82197F258D00627CF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		032FED84197F258D00627CF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		032FED86197F258D00627CF5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		032FED8A197F258D00627CF5 /* Pocket Resume-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pocket Resume-Info.plist"; sourceTree = "<group>"; };
+		032FED8A197F258D00627CF5 /* Pocket-Resume-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pocket-Resume-Info.plist"; sourceTree = "<group>"; };
 		032FED8C197F258D00627CF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		032FED90197F258D00627CF5 /* Pocket Resume-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pocket Resume-Prefix.pch"; sourceTree = "<group>"; };
 		032FED95197F258D00627CF5 /* Pocket_Resume.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pocket_Resume.xcdatamodel; sourceTree = "<group>"; };
 		032FED97197F258D00627CF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		032FED9E197F258E00627CF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		032FEDB5197F25B400627CF5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = Storyboards/Storyboard.storyboard; sourceTree = "<group>"; };
 		670ED55B1C4204FA00C6034B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67623FDE1C41FE7C00F9CC9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		67623FE01C41FE9400F9CC9B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -77,8 +74,7 @@
 		032FED74197F258D00627CF5 = {
 			isa = PBXGroup;
 			children = (
-				03DF694F1982C93E00E62BD4 /* Storyboards */,
-				032FED88197F258D00627CF5 /* Pocket Resume */,
+				032FED88197F258D00627CF5 /* Pocket-Resume */,
 				94C13B611DA36118001B3C4B /* Pocket-Resume-Tests */,
 				032FED7F197F258D00627CF5 /* Frameworks */,
 				032FED7E197F258D00627CF5 /* Products */,
@@ -106,35 +102,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		032FED88197F258D00627CF5 /* Pocket Resume */ = {
+		032FED88197F258D00627CF5 /* Pocket-Resume */ = {
 			isa = PBXGroup;
 			children = (
 				670ED55B1C4204FA00C6034B /* AppDelegate.swift */,
-				032FED97197F258D00627CF5 /* Images.xcassets */,
-				032FED94197F258D00627CF5 /* Pocket_Resume.xcdatamodeld */,
+				03DF694F1982C93E00E62BD4 /* Presentation */,
 				032FED89197F258D00627CF5 /* Supporting Files */,
 			);
+			name = "Pocket-Resume";
 			path = "Pocket Resume";
 			sourceTree = "<group>";
 		};
 		032FED89197F258D00627CF5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				032FED8A197F258D00627CF5 /* Pocket Resume-Info.plist */,
+				032FED97197F258D00627CF5 /* Images.xcassets */,
+				032FED94197F258D00627CF5 /* Pocket_Resume.xcdatamodeld */,
+				032FED8A197F258D00627CF5 /* Pocket-Resume-Info.plist */,
 				032FED8B197F258D00627CF5 /* InfoPlist.strings */,
-				032FED90197F258D00627CF5 /* Pocket Resume-Prefix.pch */,
 				67623FE01C41FE9400F9CC9B /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		03DF694F1982C93E00E62BD4 /* Storyboards */ = {
+		03DF694F1982C93E00E62BD4 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				032FEDB5197F25B400627CF5 /* Storyboard.storyboard */,
 				67623FDE1C41FE7C00F9CC9B /* Main.storyboard */,
 			);
-			name = Storyboards;
+			name = Presentation;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		94C13B611DA36118001B3C4B /* Pocket-Resume-Tests */ = {
@@ -201,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 032FED78197F258D00627CF5 /* Build configuration list for PBXProject "Pocket Resume" */;
+			buildConfigurationList = 032FED78197F258D00627CF5 /* Build configuration list for PBXProject "Pocket-Resume" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,7 +223,6 @@
 			files = (
 				032FED8D197F258D00627CF5 /* InfoPlist.strings in Resources */,
 				032FED98197F258D00627CF5 /* Images.xcassets in Resources */,
-				032FEDB6197F25B400627CF5 /* Storyboard.storyboard in Resources */,
 				67623FE11C41FE9400F9CC9B /* Launch Screen.storyboard in Resources */,
 				67623FDF1C41FE7C00F9CC9B /* Main.storyboard in Resources */,
 			);
@@ -362,7 +358,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pocket Resume/Pocket Resume-Prefix.pch";
-				INFOPLIST_FILE = "Pocket Resume/Pocket Resume-Info.plist";
+				INFOPLIST_FILE = "Pocket Resume/Pocket-Resume-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -379,7 +375,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pocket Resume/Pocket Resume-Prefix.pch";
-				INFOPLIST_FILE = "Pocket Resume/Pocket Resume-Info.plist";
+				INFOPLIST_FILE = "Pocket Resume/Pocket-Resume-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,7 +426,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		032FED78197F258D00627CF5 /* Build configuration list for PBXProject "Pocket Resume" */ = {
+		032FED78197F258D00627CF5 /* Build configuration list for PBXProject "Pocket-Resume" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				032FEDAD197F258E00627CF5 /* Debug */,
@@ -455,6 +451,7 @@
 				94C13B691DA36118001B3C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
