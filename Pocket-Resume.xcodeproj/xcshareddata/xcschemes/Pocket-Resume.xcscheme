@@ -39,6 +39,16 @@
                ReferencedContainer = "container:Pocket Resume.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "94C13B5F1DA36118001B3C4B"
+               BuildableName = "Pocket-Resume-Tests.xctest"
+               BlueprintName = "Pocket-Resume-Tests"
+               ReferencedContainer = "container:Pocket-Resume.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
