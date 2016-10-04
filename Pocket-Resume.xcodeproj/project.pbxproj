@@ -7,18 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		032E4960198E9E09005D9CE9 /* ReferenceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E495F198E9E08005D9CE9 /* ReferenceInformation.m */; };
-		032E4963198E9E09005D9CE9 /* References.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E4962198E9E09005D9CE9 /* References.m */; };
-		032E4967198EA048005D9CE9 /* ReferenceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E4966198EA048005D9CE9 /* ReferenceTableViewController.m */; };
-		032E496A198EA5B4005D9CE9 /* ReferenceInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E4969198EA5B4005D9CE9 /* ReferenceInformationViewController.m */; };
-		032E496D19900936005D9CE9 /* CertificationInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E496C19900936005D9CE9 /* CertificationInformation.m */; };
-		032E497019900936005D9CE9 /* Certifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E496F19900936005D9CE9 /* Certifications.m */; };
-		032E497319900936005D9CE9 /* Degree.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E497219900936005D9CE9 /* Degree.m */; };
-		032E497619900936005D9CE9 /* EducationCollege.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E497519900936005D9CE9 /* EducationCollege.m */; };
-		032E497919900936005D9CE9 /* CollegeInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E497819900936005D9CE9 /* CollegeInformation.m */; };
-		032E497C19900937005D9CE9 /* Skills.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E497B19900937005D9CE9 /* Skills.m */; };
-		032E498519900937005D9CE9 /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E498419900937005D9CE9 /* Personal.m */; };
-		032E498B19900C36005D9CE9 /* MyApplicationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E498A19900C36005D9CE9 /* MyApplicationTableViewController.m */; };
 		032FED81197F258D00627CF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032FED80197F258D00627CF5 /* Foundation.framework */; };
 		032FED83197F258D00627CF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032FED82197F258D00627CF5 /* CoreGraphics.framework */; };
 		032FED85197F258D00627CF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032FED84197F258D00627CF5 /* UIKit.framework */; };
@@ -26,64 +14,13 @@
 		032FED8D197F258D00627CF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032FED8B197F258D00627CF5 /* InfoPlist.strings */; };
 		032FED96197F258D00627CF5 /* Pocket_Resume.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 032FED94197F258D00627CF5 /* Pocket_Resume.xcdatamodeld */; };
 		032FED98197F258D00627CF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032FED97197F258D00627CF5 /* Images.xcassets */; };
-		032FED9F197F258E00627CF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032FED9E197F258E00627CF5 /* XCTest.framework */; };
-		032FEDA0197F258E00627CF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032FED80197F258D00627CF5 /* Foundation.framework */; };
-		032FEDA1197F258E00627CF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032FED84197F258D00627CF5 /* UIKit.framework */; };
-		032FEDA2197F258E00627CF5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032FED86197F258D00627CF5 /* CoreData.framework */; };
-		032FEDAA197F258E00627CF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032FEDA8197F258E00627CF5 /* InfoPlist.strings */; };
-		032FEDAC197F258E00627CF5 /* Pocket_ResumeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032FEDAB197F258E00627CF5 /* Pocket_ResumeTests.m */; };
 		032FEDB6197F25B400627CF5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032FEDB5197F25B400627CF5 /* Storyboard.storyboard */; };
-		0331967219A4F266009635A9 /* CertificationsInformationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0331967119A4F266009635A9 /* CertificationsInformationTableViewController.m */; };
-		0331967619A50BCE009635A9 /* CertificationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0331967519A50BCE009635A9 /* CertificationsTableViewController.m */; };
-		0331967C19A588AB009635A9 /* Availability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0331967B19A588AB009635A9 /* Availability.m */; };
-		034D708C198C61F700EC6270 /* ViewApplicationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034D708B198C61F700EC6270 /* ViewApplicationTableViewController.m */; };
-		034D708F198D55D100EC6270 /* AvailabiltyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034D708E198D55D100EC6270 /* AvailabiltyTableViewController.m */; };
-		0351555C19A43FEA00FEB672 /* EmplomerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0351555B19A43FEA00FEB672 /* EmplomerInformation.m */; };
-		0351555F19A444EB00FEB672 /* Employment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0351555E19A444EB00FEB672 /* Employment.m */; };
-		0351556219A444EC00FEB672 /* PositionInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0351556119A444EC00FEB672 /* PositionInformation.m */; };
-		03923DEE19847EB600BBFBB3 /* PersonalEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03923DED19847EB600BBFBB3 /* PersonalEditTableViewController.m */; };
-		03D8587B19A2F94700FA27EC /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D8587A19A2F94700FA27EC /* InitialViewController.m */; };
-		03D8587E19A3BFC900FA27EC /* SkillsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D8587D19A3BFC900FA27EC /* SkillsTableViewController.m */; };
 		670ED55C1C4204FA00C6034B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670ED55B1C4204FA00C6034B /* AppDelegate.swift */; };
 		67623FDF1C41FE7C00F9CC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67623FDE1C41FE7C00F9CC9B /* Main.storyboard */; };
 		67623FE11C41FE9400F9CC9B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67623FE01C41FE9400F9CC9B /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		032FEDA3197F258E00627CF5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 032FED75197F258D00627CF5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 032FED7C197F258D00627CF5;
-			remoteInfo = "Pocket Resume";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		032E495E198E9E08005D9CE9 /* ReferenceInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReferenceInformation.h; path = NSManagedObjectContext/ReferenceInformation.h; sourceTree = "<group>"; };
-		032E495F198E9E08005D9CE9 /* ReferenceInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReferenceInformation.m; path = NSManagedObjectContext/ReferenceInformation.m; sourceTree = "<group>"; };
-		032E4961198E9E09005D9CE9 /* References.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = References.h; path = NSManagedObjectContext/References.h; sourceTree = "<group>"; };
-		032E4962198E9E09005D9CE9 /* References.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = References.m; path = NSManagedObjectContext/References.m; sourceTree = "<group>"; };
-		032E4965198EA048005D9CE9 /* ReferenceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceTableViewController.h; sourceTree = "<group>"; };
-		032E4966198EA048005D9CE9 /* ReferenceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceTableViewController.m; sourceTree = "<group>"; };
-		032E4968198EA5B4005D9CE9 /* ReferenceInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceInformationViewController.h; sourceTree = "<group>"; };
-		032E4969198EA5B4005D9CE9 /* ReferenceInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceInformationViewController.m; sourceTree = "<group>"; };
-		032E496B19900936005D9CE9 /* CertificationInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CertificationInformation.h; path = NSManagedObjectContext/CertificationInformation.h; sourceTree = "<group>"; };
-		032E496C19900936005D9CE9 /* CertificationInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CertificationInformation.m; path = NSManagedObjectContext/CertificationInformation.m; sourceTree = "<group>"; };
-		032E496E19900936005D9CE9 /* Certifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Certifications.h; path = NSManagedObjectContext/Certifications.h; sourceTree = "<group>"; };
-		032E496F19900936005D9CE9 /* Certifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Certifications.m; path = NSManagedObjectContext/Certifications.m; sourceTree = "<group>"; };
-		032E497119900936005D9CE9 /* Degree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Degree.h; path = NSManagedObjectContext/Degree.h; sourceTree = "<group>"; };
-		032E497219900936005D9CE9 /* Degree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Degree.m; path = NSManagedObjectContext/Degree.m; sourceTree = "<group>"; };
-		032E497419900936005D9CE9 /* EducationCollege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EducationCollege.h; path = NSManagedObjectContext/EducationCollege.h; sourceTree = "<group>"; };
-		032E497519900936005D9CE9 /* EducationCollege.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EducationCollege.m; path = NSManagedObjectContext/EducationCollege.m; sourceTree = "<group>"; };
-		032E497719900936005D9CE9 /* CollegeInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollegeInformation.h; path = NSManagedObjectContext/CollegeInformation.h; sourceTree = "<group>"; };
-		032E497819900936005D9CE9 /* CollegeInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollegeInformation.m; path = NSManagedObjectContext/CollegeInformation.m; sourceTree = "<group>"; };
-		032E497A19900937005D9CE9 /* Skills.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Skills.h; path = NSManagedObjectContext/Skills.h; sourceTree = "<group>"; };
-		032E497B19900937005D9CE9 /* Skills.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Skills.m; path = NSManagedObjectContext/Skills.m; sourceTree = "<group>"; };
-		032E498319900937005D9CE9 /* Personal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Personal.h; path = NSManagedObjectContext/Personal.h; sourceTree = "<group>"; };
-		032E498419900937005D9CE9 /* Personal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Personal.m; path = NSManagedObjectContext/Personal.m; sourceTree = "<group>"; };
-		032E498919900C36005D9CE9 /* MyApplicationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyApplicationTableViewController.h; path = "View Controllers/MyApplicationTableViewController.h"; sourceTree = "<group>"; };
-		032E498A19900C36005D9CE9 /* MyApplicationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyApplicationTableViewController.m; path = "View Controllers/MyApplicationTableViewController.m"; sourceTree = "<group>"; };
 		032FED7D197F258D00627CF5 /* Pocket Resume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Resume.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		032FED80197F258D00627CF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		032FED82197F258D00627CF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,38 +29,10 @@
 		032FED8A197F258D00627CF5 /* Pocket Resume-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pocket Resume-Info.plist"; sourceTree = "<group>"; };
 		032FED8C197F258D00627CF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		032FED90197F258D00627CF5 /* Pocket Resume-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pocket Resume-Prefix.pch"; sourceTree = "<group>"; };
-		032FED91197F258D00627CF5 /* Pocket_ResumeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pocket_ResumeAppDelegate.h; sourceTree = "<group>"; };
-		032FED92197F258D00627CF5 /* Pocket_ResumeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pocket_ResumeAppDelegate.m; sourceTree = "<group>"; };
 		032FED95197F258D00627CF5 /* Pocket_Resume.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pocket_Resume.xcdatamodel; sourceTree = "<group>"; };
 		032FED97197F258D00627CF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		032FED9D197F258E00627CF5 /* Pocket ResumeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket ResumeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		032FED9E197F258E00627CF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		032FEDA7197F258E00627CF5 /* Pocket ResumeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pocket ResumeTests-Info.plist"; sourceTree = "<group>"; };
-		032FEDA9197F258E00627CF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		032FEDAB197F258E00627CF5 /* Pocket_ResumeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pocket_ResumeTests.m; sourceTree = "<group>"; };
 		032FEDB5197F25B400627CF5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = Storyboards/Storyboard.storyboard; sourceTree = "<group>"; };
-		0331967019A4F266009635A9 /* CertificationsInformationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificationsInformationTableViewController.h; sourceTree = "<group>"; };
-		0331967119A4F266009635A9 /* CertificationsInformationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificationsInformationTableViewController.m; sourceTree = "<group>"; };
-		0331967419A50BCE009635A9 /* CertificationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CertificationsTableViewController.h; path = "View Controllers/CertificationsTableViewController.h"; sourceTree = "<group>"; };
-		0331967519A50BCE009635A9 /* CertificationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CertificationsTableViewController.m; path = "View Controllers/CertificationsTableViewController.m"; sourceTree = "<group>"; };
-		0331967A19A588AB009635A9 /* Availability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Availability.h; path = NSManagedObjectContext/Availability.h; sourceTree = "<group>"; };
-		0331967B19A588AB009635A9 /* Availability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Availability.m; path = NSManagedObjectContext/Availability.m; sourceTree = "<group>"; };
-		034D708A198C61F700EC6270 /* ViewApplicationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewApplicationTableViewController.h; path = "View Controllers/ViewApplicationTableViewController.h"; sourceTree = "<group>"; };
-		034D708B198C61F700EC6270 /* ViewApplicationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewApplicationTableViewController.m; path = "View Controllers/ViewApplicationTableViewController.m"; sourceTree = "<group>"; };
-		034D708D198D55D100EC6270 /* AvailabiltyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AvailabiltyTableViewController.h; path = "View Controllers/AvailabiltyTableViewController.h"; sourceTree = "<group>"; };
-		034D708E198D55D100EC6270 /* AvailabiltyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AvailabiltyTableViewController.m; path = "View Controllers/AvailabiltyTableViewController.m"; sourceTree = "<group>"; };
-		0351555A19A43FEA00FEB672 /* EmplomerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmplomerInformation.h; path = NSManagedObjectContext/EmplomerInformation.h; sourceTree = "<group>"; };
-		0351555B19A43FEA00FEB672 /* EmplomerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmplomerInformation.m; path = NSManagedObjectContext/EmplomerInformation.m; sourceTree = "<group>"; };
-		0351555D19A444EB00FEB672 /* Employment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Employment.h; path = NSManagedObjectContext/Employment.h; sourceTree = "<group>"; };
-		0351555E19A444EB00FEB672 /* Employment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Employment.m; path = NSManagedObjectContext/Employment.m; sourceTree = "<group>"; };
-		0351556019A444EC00FEB672 /* PositionInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PositionInformation.h; path = NSManagedObjectContext/PositionInformation.h; sourceTree = "<group>"; };
-		0351556119A444EC00FEB672 /* PositionInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PositionInformation.m; path = NSManagedObjectContext/PositionInformation.m; sourceTree = "<group>"; };
-		03923DEC19847EB600BBFBB3 /* PersonalEditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonalEditTableViewController.h; path = "View Controllers/PersonalEditTableViewController.h"; sourceTree = "<group>"; };
-		03923DED19847EB600BBFBB3 /* PersonalEditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonalEditTableViewController.m; path = "View Controllers/PersonalEditTableViewController.m"; sourceTree = "<group>"; };
-		03D8587919A2F94700FA27EC /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InitialViewController.h; path = "View Controllers/InitialViewController.h"; sourceTree = "<group>"; };
-		03D8587A19A2F94700FA27EC /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InitialViewController.m; path = "View Controllers/InitialViewController.m"; sourceTree = "<group>"; };
-		03D8587C19A3BFC900FA27EC /* SkillsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkillsTableViewController.h; path = "View Controllers/SkillsTableViewController.h"; sourceTree = "<group>"; };
-		03D8587D19A3BFC900FA27EC /* SkillsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkillsTableViewController.m; path = "View Controllers/SkillsTableViewController.m"; sourceTree = "<group>"; };
 		670ED55B1C4204FA00C6034B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67623FDE1C41FE7C00F9CC9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		67623FE01C41FE9400F9CC9B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -141,61 +50,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		032FED9A197F258E00627CF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				032FED9F197F258E00627CF5 /* XCTest.framework in Frameworks */,
-				032FEDA2197F258E00627CF5 /* CoreData.framework in Frameworks */,
-				032FEDA1197F258E00627CF5 /* UIKit.framework in Frameworks */,
-				032FEDA0197F258E00627CF5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		032E4964198E9E14005D9CE9 /* NSManagedObject */ = {
-			isa = PBXGroup;
-			children = (
-				0331967A19A588AB009635A9 /* Availability.h */,
-				0331967B19A588AB009635A9 /* Availability.m */,
-				0351556019A444EC00FEB672 /* PositionInformation.h */,
-				0351556119A444EC00FEB672 /* PositionInformation.m */,
-				0351555D19A444EB00FEB672 /* Employment.h */,
-				0351555E19A444EB00FEB672 /* Employment.m */,
-				032E498319900937005D9CE9 /* Personal.h */,
-				032E498419900937005D9CE9 /* Personal.m */,
-				0351555A19A43FEA00FEB672 /* EmplomerInformation.h */,
-				0351555B19A43FEA00FEB672 /* EmplomerInformation.m */,
-				032E497A19900937005D9CE9 /* Skills.h */,
-				032E497B19900937005D9CE9 /* Skills.m */,
-				032E497719900936005D9CE9 /* CollegeInformation.h */,
-				032E497819900936005D9CE9 /* CollegeInformation.m */,
-				032E497419900936005D9CE9 /* EducationCollege.h */,
-				032E497519900936005D9CE9 /* EducationCollege.m */,
-				032E497119900936005D9CE9 /* Degree.h */,
-				032E497219900936005D9CE9 /* Degree.m */,
-				032E496E19900936005D9CE9 /* Certifications.h */,
-				032E496F19900936005D9CE9 /* Certifications.m */,
-				032E496B19900936005D9CE9 /* CertificationInformation.h */,
-				032E496C19900936005D9CE9 /* CertificationInformation.m */,
-				032E4961198E9E09005D9CE9 /* References.h */,
-				032E4962198E9E09005D9CE9 /* References.m */,
-				032E495E198E9E08005D9CE9 /* ReferenceInformation.h */,
-				032E495F198E9E08005D9CE9 /* ReferenceInformation.m */,
-			);
-			name = NSManagedObject;
-			sourceTree = "<group>";
-		};
 		032FED74197F258D00627CF5 = {
 			isa = PBXGroup;
 			children = (
-				032E4964198E9E14005D9CE9 /* NSManagedObject */,
-				03DF694E1982C93300E62BD4 /* View Controllers */,
 				03DF694F1982C93E00E62BD4 /* Storyboards */,
 				032FED88197F258D00627CF5 /* Pocket Resume */,
-				032FEDA5197F258E00627CF5 /* Pocket ResumeTests */,
 				032FED7F197F258D00627CF5 /* Frameworks */,
 				032FED7E197F258D00627CF5 /* Products */,
 			);
@@ -205,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				032FED7D197F258D00627CF5 /* Pocket Resume.app */,
-				032FED9D197F258E00627CF5 /* Pocket ResumeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,8 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				670ED55B1C4204FA00C6034B /* AppDelegate.swift */,
-				032FED91197F258D00627CF5 /* Pocket_ResumeAppDelegate.h */,
-				032FED92197F258D00627CF5 /* Pocket_ResumeAppDelegate.m */,
 				032FED97197F258D00627CF5 /* Images.xcassets */,
 				032FED94197F258D00627CF5 /* Pocket_Resume.xcdatamodeld */,
 				032FED89197F258D00627CF5 /* Supporting Files */,
@@ -244,99 +103,6 @@
 				67623FE01C41FE9400F9CC9B /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		032FEDA5197F258E00627CF5 /* Pocket ResumeTests */ = {
-			isa = PBXGroup;
-			children = (
-				032FEDAB197F258E00627CF5 /* Pocket_ResumeTests.m */,
-				032FEDA6197F258E00627CF5 /* Supporting Files */,
-			);
-			path = "Pocket ResumeTests";
-			sourceTree = "<group>";
-		};
-		032FEDA6197F258E00627CF5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				032FEDA7197F258E00627CF5 /* Pocket ResumeTests-Info.plist */,
-				032FEDA8197F258E00627CF5 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0331966B19A4F158009635A9 /* TableViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				0331967319A4F26B009635A9 /* CertificationTableViewControllers */,
-				0331966D19A4F191009635A9 /* SkillsTableViewControllers */,
-				0331966C19A4F17D009635A9 /* ReferencesTableViewControllers */,
-				0331966E19A4F1AB009635A9 /* PersonalEditViewController */,
-				0331966F19A4F1D9009635A9 /* AvailabilityTableViewControllers */,
-				032E498919900C36005D9CE9 /* MyApplicationTableViewController.h */,
-				032E498A19900C36005D9CE9 /* MyApplicationTableViewController.m */,
-				034D708A198C61F700EC6270 /* ViewApplicationTableViewController.h */,
-				034D708B198C61F700EC6270 /* ViewApplicationTableViewController.m */,
-			);
-			name = TableViewControllers;
-			sourceTree = "<group>";
-		};
-		0331966C19A4F17D009635A9 /* ReferencesTableViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				032E4968198EA5B4005D9CE9 /* ReferenceInformationViewController.h */,
-				032E4969198EA5B4005D9CE9 /* ReferenceInformationViewController.m */,
-				032E4965198EA048005D9CE9 /* ReferenceTableViewController.h */,
-				032E4966198EA048005D9CE9 /* ReferenceTableViewController.m */,
-			);
-			name = ReferencesTableViewControllers;
-			sourceTree = "<group>";
-		};
-		0331966D19A4F191009635A9 /* SkillsTableViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				03D8587C19A3BFC900FA27EC /* SkillsTableViewController.h */,
-				03D8587D19A3BFC900FA27EC /* SkillsTableViewController.m */,
-			);
-			name = SkillsTableViewControllers;
-			sourceTree = "<group>";
-		};
-		0331966E19A4F1AB009635A9 /* PersonalEditViewController */ = {
-			isa = PBXGroup;
-			children = (
-				03923DEC19847EB600BBFBB3 /* PersonalEditTableViewController.h */,
-				03923DED19847EB600BBFBB3 /* PersonalEditTableViewController.m */,
-			);
-			name = PersonalEditViewController;
-			sourceTree = "<group>";
-		};
-		0331966F19A4F1D9009635A9 /* AvailabilityTableViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				034D708D198D55D100EC6270 /* AvailabiltyTableViewController.h */,
-				034D708E198D55D100EC6270 /* AvailabiltyTableViewController.m */,
-			);
-			name = AvailabilityTableViewControllers;
-			sourceTree = "<group>";
-		};
-		0331967319A4F26B009635A9 /* CertificationTableViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				0331967019A4F266009635A9 /* CertificationsInformationTableViewController.h */,
-				0331967119A4F266009635A9 /* CertificationsInformationTableViewController.m */,
-				0331967419A50BCE009635A9 /* CertificationsTableViewController.h */,
-				0331967519A50BCE009635A9 /* CertificationsTableViewController.m */,
-			);
-			name = CertificationTableViewControllers;
-			sourceTree = "<group>";
-		};
-		03DF694E1982C93300E62BD4 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				03D8587919A2F94700FA27EC /* InitialViewController.h */,
-				03D8587A19A2F94700FA27EC /* InitialViewController.m */,
-				0331966B19A4F158009635A9 /* TableViewControllers */,
-			);
-			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		03DF694F1982C93E00E62BD4 /* Storyboards */ = {
@@ -368,24 +134,6 @@
 			productReference = 032FED7D197F258D00627CF5 /* Pocket Resume.app */;
 			productType = "com.apple.product-type.application";
 		};
-		032FED9C197F258E00627CF5 /* Pocket ResumeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 032FEDB2197F258E00627CF5 /* Build configuration list for PBXNativeTarget "Pocket ResumeTests" */;
-			buildPhases = (
-				032FED99197F258E00627CF5 /* Sources */,
-				032FED9A197F258E00627CF5 /* Frameworks */,
-				032FED9B197F258E00627CF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				032FEDA4197F258E00627CF5 /* PBXTargetDependency */,
-			);
-			name = "Pocket ResumeTests";
-			productName = "Pocket ResumeTests";
-			productReference = 032FED9D197F258E00627CF5 /* Pocket ResumeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -396,11 +144,6 @@
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Joshua Alvarado";
-				TargetAttributes = {
-					032FED9C197F258E00627CF5 = {
-						TestTargetID = 032FED7C197F258D00627CF5;
-					};
-				};
 			};
 			buildConfigurationList = 032FED78197F258D00627CF5 /* Build configuration list for PBXProject "Pocket Resume" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -415,7 +158,6 @@
 			projectRoot = "";
 			targets = (
 				032FED7C197F258D00627CF5 /* Pocket Resume */,
-				032FED9C197F258E00627CF5 /* Pocket ResumeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -433,14 +175,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		032FED9B197F258E00627CF5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				032FEDAA197F258E00627CF5 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -448,65 +182,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				032E497919900936005D9CE9 /* CollegeInformation.m in Sources */,
-				032E4963198E9E09005D9CE9 /* References.m in Sources */,
-				032E497619900936005D9CE9 /* EducationCollege.m in Sources */,
-				032E496D19900936005D9CE9 /* CertificationInformation.m in Sources */,
-				032E497C19900937005D9CE9 /* Skills.m in Sources */,
-				0331967C19A588AB009635A9 /* Availability.m in Sources */,
-				03D8587E19A3BFC900FA27EC /* SkillsTableViewController.m in Sources */,
-				032E4967198EA048005D9CE9 /* ReferenceTableViewController.m in Sources */,
-				032E497019900936005D9CE9 /* Certifications.m in Sources */,
-				034D708F198D55D100EC6270 /* AvailabiltyTableViewController.m in Sources */,
-				032E496A198EA5B4005D9CE9 /* ReferenceInformationViewController.m in Sources */,
-				0351556219A444EC00FEB672 /* PositionInformation.m in Sources */,
-				032E498519900937005D9CE9 /* Personal.m in Sources */,
-				0351555F19A444EB00FEB672 /* Employment.m in Sources */,
 				032FED96197F258D00627CF5 /* Pocket_Resume.xcdatamodeld in Sources */,
-				034D708C198C61F700EC6270 /* ViewApplicationTableViewController.m in Sources */,
-				0331967619A50BCE009635A9 /* CertificationsTableViewController.m in Sources */,
-				0331967219A4F266009635A9 /* CertificationsInformationTableViewController.m in Sources */,
-				032E497319900936005D9CE9 /* Degree.m in Sources */,
 				670ED55C1C4204FA00C6034B /* AppDelegate.swift in Sources */,
-				032E4960198E9E09005D9CE9 /* ReferenceInformation.m in Sources */,
-				03D8587B19A2F94700FA27EC /* InitialViewController.m in Sources */,
-				032E498B19900C36005D9CE9 /* MyApplicationTableViewController.m in Sources */,
-				03923DEE19847EB600BBFBB3 /* PersonalEditTableViewController.m in Sources */,
-				0351555C19A43FEA00FEB672 /* EmplomerInformation.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		032FED99197F258E00627CF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				032FEDAC197F258E00627CF5 /* Pocket_ResumeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		032FEDA4197F258E00627CF5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 032FED7C197F258D00627CF5 /* Pocket Resume */;
-			targetProxy = 032FEDA3197F258E00627CF5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		032FED8B197F258D00627CF5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				032FED8C197F258D00627CF5 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		032FEDA8197F258E00627CF5 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				032FEDA9197F258E00627CF5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -620,48 +307,6 @@
 			};
 			name = Release;
 		};
-		032FEDB3197F258E00627CF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pocket Resume.app/Pocket Resume";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pocket Resume/Pocket Resume-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Pocket ResumeTests/Pocket ResumeTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		032FEDB4197F258E00627CF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pocket Resume.app/Pocket Resume";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pocket Resume/Pocket Resume-Prefix.pch";
-				INFOPLIST_FILE = "Pocket ResumeTests/Pocket ResumeTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -679,15 +324,6 @@
 			buildConfigurations = (
 				032FEDB0197F258E00627CF5 /* Debug */,
 				032FEDB1197F258E00627CF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		032FEDB2197F258E00627CF5 /* Build configuration list for PBXNativeTarget "Pocket ResumeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				032FEDB3197F258E00627CF5 /* Debug */,
-				032FEDB4197F258E00627CF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
