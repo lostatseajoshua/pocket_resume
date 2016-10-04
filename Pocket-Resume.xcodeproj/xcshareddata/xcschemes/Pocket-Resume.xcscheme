@@ -26,7 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -45,7 +46,7 @@
             BlueprintIdentifier = "032FED7C197F258D00627CF5"
             BuildableName = "Pocket Resume.app"
             BlueprintName = "Pocket Resume"
-            ReferencedContainer = "container:Pocket Resume.xcodeproj">
+            ReferencedContainer = "container:Pocket-Resume.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -68,7 +69,7 @@
             BlueprintIdentifier = "032FED7C197F258D00627CF5"
             BuildableName = "Pocket Resume.app"
             BlueprintName = "Pocket Resume"
-            ReferencedContainer = "container:Pocket Resume.xcodeproj">
+            ReferencedContainer = "container:Pocket-Resume.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
