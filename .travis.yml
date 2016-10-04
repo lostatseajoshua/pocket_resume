@@ -8,4 +8,4 @@ osx_image: xcode7
 xcode_project: pocket_resume/Pocket Resume.xcodeproj
 xcode_scheme: Pocket Resume
 
-script: xctool -project Pocket-Resume.xcodeproj -scheme SwiftExpression build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+script: xctool -project Pocket-Resume.xcodeproj -scheme Pocket-Resume build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
