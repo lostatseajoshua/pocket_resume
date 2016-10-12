@@ -17,6 +17,14 @@
 		670ED55C1C4204FA00C6034B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670ED55B1C4204FA00C6034B /* AppDelegate.swift */; };
 		67623FDF1C41FE7C00F9CC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67623FDE1C41FE7C00F9CC9B /* Main.storyboard */; };
 		67623FE11C41FE9400F9CC9B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67623FE01C41FE9400F9CC9B /* Launch Screen.storyboard */; };
+		94B086091DADE35700E60FF0 /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086031DADE35700E60FF0 /* Job+CoreDataProperties.swift */; };
+		94B0860A1DADE35700E60FF0 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086041DADE35700E60FF0 /* Job.swift */; };
+		94B0860B1DADE35700E60FF0 /* Lead+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086051DADE35700E60FF0 /* Lead+CoreDataProperties.swift */; };
+		94B0860C1DADE35700E60FF0 /* Lead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086061DADE35700E60FF0 /* Lead.swift */; };
+		94B0860D1DADE35700E60FF0 /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086071DADE35700E60FF0 /* Company+CoreDataProperties.swift */; };
+		94B0860E1DADE35700E60FF0 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086081DADE35700E60FF0 /* Company.swift */; };
+		94B086121DADEC6600E60FF0 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086111DADEC6600E60FF0 /* CoreDataStack.swift */; };
+		94B086141DADF72100E60FF0 /* Pocket_Resume_Core_Data_Stack_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086131DADF72100E60FF0 /* Pocket_Resume_Core_Data_Stack_Tests.swift */; };
 		94C13B631DA36118001B3C4B /* Pocket_Resume_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C13B621DA36118001B3C4B /* Pocket_Resume_Tests.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +52,14 @@
 		670ED55B1C4204FA00C6034B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67623FDE1C41FE7C00F9CC9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		67623FE01C41FE9400F9CC9B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		94B086031DADE35700E60FF0 /* Job+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Job+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		94B086041DADE35700E60FF0 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		94B086051DADE35700E60FF0 /* Lead+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lead+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		94B086061DADE35700E60FF0 /* Lead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lead.swift; sourceTree = "<group>"; };
+		94B086071DADE35700E60FF0 /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		94B086081DADE35700E60FF0 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		94B086111DADEC6600E60FF0 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		94B086131DADF72100E60FF0 /* Pocket_Resume_Core_Data_Stack_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pocket_Resume_Core_Data_Stack_Tests.swift; sourceTree = "<group>"; };
 		94C13B601DA36118001B3C4B /* Pocket-Resume-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket-Resume-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C13B621DA36118001B3C4B /* Pocket_Resume_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_Resume_Tests.swift; sourceTree = "<group>"; };
 		94C13B641DA36118001B3C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				670ED55B1C4204FA00C6034B /* AppDelegate.swift */,
+				94B086011DADE30B00E60FF0 /* Model */,
 				03DF694F1982C93E00E62BD4 /* Presentation */,
 				032FED89197F258D00627CF5 /* Supporting Files */,
 			);
@@ -134,10 +151,33 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		94B086011DADE30B00E60FF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94B086021DADE32900E60FF0 /* Managed Objects */,
+				94B086111DADEC6600E60FF0 /* CoreDataStack.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		94B086021DADE32900E60FF0 /* Managed Objects */ = {
+			isa = PBXGroup;
+			children = (
+				94B086081DADE35700E60FF0 /* Company.swift */,
+				94B086071DADE35700E60FF0 /* Company+CoreDataProperties.swift */,
+				94B086041DADE35700E60FF0 /* Job.swift */,
+				94B086031DADE35700E60FF0 /* Job+CoreDataProperties.swift */,
+				94B086061DADE35700E60FF0 /* Lead.swift */,
+				94B086051DADE35700E60FF0 /* Lead+CoreDataProperties.swift */,
+			);
+			name = "Managed Objects";
+			sourceTree = "<group>";
+		};
 		94C13B611DA36118001B3C4B /* Pocket-Resume-Tests */ = {
 			isa = PBXGroup;
 			children = (
 				94C13B621DA36118001B3C4B /* Pocket_Resume_Tests.swift */,
+				94B086131DADF72100E60FF0 /* Pocket_Resume_Core_Data_Stack_Tests.swift */,
 				94C13B641DA36118001B3C4B /* Info.plist */,
 			);
 			path = "Pocket-Resume-Tests";
@@ -244,6 +284,13 @@
 			files = (
 				032FED96197F258D00627CF5 /* Pocket_Resume.xcdatamodeld in Sources */,
 				670ED55C1C4204FA00C6034B /* AppDelegate.swift in Sources */,
+				94B086091DADE35700E60FF0 /* Job+CoreDataProperties.swift in Sources */,
+				94B0860C1DADE35700E60FF0 /* Lead.swift in Sources */,
+				94B086121DADEC6600E60FF0 /* CoreDataStack.swift in Sources */,
+				94B0860A1DADE35700E60FF0 /* Job.swift in Sources */,
+				94B0860B1DADE35700E60FF0 /* Lead+CoreDataProperties.swift in Sources */,
+				94B0860D1DADE35700E60FF0 /* Company+CoreDataProperties.swift in Sources */,
+				94B0860E1DADE35700E60FF0 /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B086141DADF72100E60FF0 /* Pocket_Resume_Core_Data_Stack_Tests.swift in Sources */,
 				94C13B631DA36118001B3C4B /* Pocket_Resume_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +407,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pocket Resume/Pocket Resume-Prefix.pch";
 				INFOPLIST_FILE = "Pocket Resume/Pocket-Resume-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +425,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pocket Resume/Pocket Resume-Prefix.pch";
 				INFOPLIST_FILE = "Pocket Resume/Pocket-Resume-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
