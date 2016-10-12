@@ -154,8 +154,9 @@
 		94B086011DADE30B00E60FF0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				94B086021DADE32900E60FF0 /* Managed Objects */,
 				94B086111DADEC6600E60FF0 /* CoreDataStack.swift */,
+				94B086021DADE32900E60FF0 /* Managed Objects */,
+				94EF99301DAEBA1B0094BC3D /* Services */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -181,6 +182,14 @@
 				94C13B641DA36118001B3C4B /* Info.plist */,
 			);
 			path = "Pocket-Resume-Tests";
+			sourceTree = "<group>";
+		};
+		94EF99301DAEBA1B0094BC3D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				94EF99311DAEBA340094BC3D /* LeadService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +296,7 @@
 				94B086091DADE35700E60FF0 /* Job+CoreDataProperties.swift in Sources */,
 				94B0860C1DADE35700E60FF0 /* Lead.swift in Sources */,
 				94B086121DADEC6600E60FF0 /* CoreDataStack.swift in Sources */,
+				94EF99321DAEBA340094BC3D /* LeadService.swift in Sources */,
 				94B0860A1DADE35700E60FF0 /* Job.swift in Sources */,
 				94B0860B1DADE35700E60FF0 /* Lead+CoreDataProperties.swift in Sources */,
 				94B0860D1DADE35700E60FF0 /* Company+CoreDataProperties.swift in Sources */,
