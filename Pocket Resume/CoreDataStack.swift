@@ -29,9 +29,17 @@ class CoreDataStack {
     
     /// Creates a `NSManagedObjectContext` that is a child of the current `CoreDataStack`'s `mainContext` on a private background queue
     /// - Returns: a `NSManagedObjectContext` on a private queue
-    func privateQueueContext() -> NSManagedObjectContext {
+    func privateQueueChildContext() -> NSManagedObjectContext {
         let privateContext = NSManagedObjectContext(concurrencyType: .PrivateQueueConcurrencyType)
         privateContext.parentContext = mainContext
+        return privateContext
+    }
+    
+    /// Creates a `NSManagedObjectContext` on a private background queue with the same store coordinator as the `mainContext `
+    /// - Returns: a `NSManagedObjectContext` on a private queue
+    func privateQueueContext() -> NSManagedObjectContext {
+        let privateContext = NSManagedObjectContext(concurrencyType: .PrivateQueueConcurrencyType)
+        privateContext.persistentStoreCoordinator = mainContext.persistentStoreCoordinator
         return privateContext
     }
     
