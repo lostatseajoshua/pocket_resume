@@ -24,7 +24,7 @@
 		94B0860D1DADE35700E60FF0 /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086071DADE35700E60FF0 /* Company+CoreDataProperties.swift */; };
 		94B0860E1DADE35700E60FF0 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086081DADE35700E60FF0 /* Company.swift */; };
 		94B086121DADEC6600E60FF0 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086111DADEC6600E60FF0 /* CoreDataStack.swift */; };
-		94B086141DADF72100E60FF0 /* Pocket_Resume_Core_Data_Stack_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086131DADF72100E60FF0 /* Pocket_Resume_Core_Data_Stack_Tests.swift */; };
+		94B086141DADF72100E60FF0 /* Core_Data_Stack_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B086131DADF72100E60FF0 /* Core_Data_Stack_Tests.swift */; };
 		94C13B631DA36118001B3C4B /* Pocket_Resume_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C13B621DA36118001B3C4B /* Pocket_Resume_Tests.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +59,7 @@
 		94B086071DADE35700E60FF0 /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		94B086081DADE35700E60FF0 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		94B086111DADEC6600E60FF0 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
-		94B086131DADF72100E60FF0 /* Pocket_Resume_Core_Data_Stack_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pocket_Resume_Core_Data_Stack_Tests.swift; sourceTree = "<group>"; };
+		94B086131DADF72100E60FF0 /* Core_Data_Stack_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core_Data_Stack_Tests.swift; sourceTree = "<group>"; };
 		94C13B601DA36118001B3C4B /* Pocket-Resume-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket-Resume-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C13B621DA36118001B3C4B /* Pocket_Resume_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_Resume_Tests.swift; sourceTree = "<group>"; };
 		94C13B641DA36118001B3C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -177,7 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				94C13B621DA36118001B3C4B /* Pocket_Resume_Tests.swift */,
-				94B086131DADF72100E60FF0 /* Pocket_Resume_Core_Data_Stack_Tests.swift */,
+				94B086131DADF72100E60FF0 /* Core_Data_Stack_Tests.swift */,
 				94C13B641DA36118001B3C4B /* Info.plist */,
 			);
 			path = "Pocket-Resume-Tests";
@@ -298,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B086141DADF72100E60FF0 /* Pocket_Resume_Core_Data_Stack_Tests.swift in Sources */,
+				94B086141DADF72100E60FF0 /* Core_Data_Stack_Tests.swift in Sources */,
 				94C13B631DA36118001B3C4B /* Pocket_Resume_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,7 +14,7 @@ import CoreData
 
 extension Lead {
 
-    @NSManaged var creationDate: NSTimeInterval
+    @NSManaged var creationDate: NSDate
     @NSManaged var status: Int16
     @NSManaged var name: String?
     @NSManaged var company: Company?
