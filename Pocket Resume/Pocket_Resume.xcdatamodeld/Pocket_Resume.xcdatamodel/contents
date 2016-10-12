@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Automatic">
     <entity name="Availability" representedClassName="Availability" syncable="YES">
         <attribute name="fridayEarlyAm" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="fridayEarlyHour" optional="YES" attributeType="String" syncable="YES"/>
@@ -67,14 +67,18 @@
         <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="college" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EducationCollege" inverseName="collegeDetails" inverseEntity="EducationCollege" syncable="YES"/>
     </entity>
+    <entity name="Company" representedClassName=".Company" syncable="YES">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="job" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Job" inverseName="company" inverseEntity="Job" syncable="YES"/>
+        <relationship name="lead" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Lead" inverseName="company" inverseEntity="Lead" syncable="YES"/>
+    </entity>
     <entity name="Contact" syncable="YES">
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="conactOfLead" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Lead" inverseName="pointOfContact" inverseEntity="Lead" syncable="YES"/>
-        <relationship name="referenceOfLead" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Lead" inverseName="referenceContact" inverseEntity="Lead" syncable="YES"/>
     </entity>
     <entity name="Degree" representedClassName="Degree" syncable="YES">
         <attribute name="degreeType" optional="YES" attributeType="String" syncable="YES"/>
@@ -107,20 +111,19 @@
         <relationship name="employerdetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EmplomerInformation" inverseName="employer" inverseEntity="EmplomerInformation" syncable="YES"/>
         <relationship name="positiondetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PositionInformation" inverseName="position" inverseEntity="PositionInformation" syncable="YES"/>
     </entity>
-    <entity name="Job" syncable="YES">
+    <entity name="Job" representedClassName=".Job" syncable="YES">
         <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="positionTitle" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="jobOfLead" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Lead" inverseName="jobLead" inverseEntity="Lead" syncable="YES"/>
+        <attribute name="location" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" attributeType="String" syncable="YES"/>
+        <attribute name="positionType" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="2" defaultValueString="1" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="49" defaultValueString="0" syncable="YES"/>
+        <relationship name="company" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Company" inverseName="job" inverseEntity="Company" syncable="YES"/>
     </entity>
-    <entity name="Lead" syncable="YES">
-        <attribute name="dateOfLead" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="lastDateOfContact" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <relationship name="jobLead" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Job" inverseName="jobOfLead" inverseEntity="Job" syncable="YES"/>
-        <relationship name="pointOfContact" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Contact" inverseName="conactOfLead" inverseEntity="Contact" syncable="YES"/>
-        <relationship name="referenceContact" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Contact" inverseName="referenceOfLead" inverseEntity="Contact" syncable="YES"/>
+    <entity name="Lead" representedClassName=".Lead" syncable="YES">
+        <attribute name="creationDate" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" attributeType="Integer 16" minValueString="0" maxValueString="6" defaultValueString="0" syncable="YES"/>
+        <relationship name="company" maxCount="1" deletionRule="Nullify" destinationEntity="Company" inverseName="lead" inverseEntity="Company" syncable="YES"/>
     </entity>
     <entity name="Personal" representedClassName="Personal" syncable="YES">
         <attribute name="address1" optional="YES" attributeType="String" syncable="YES"/>
@@ -163,18 +166,19 @@
         <element name="CertificationInformation" positionX="259" positionY="-216" width="128" height="118"/>
         <element name="Certifications" positionX="70" positionY="-216" width="128" height="88"/>
         <element name="CollegeInformation" positionX="97" positionY="293" width="128" height="178"/>
+        <element name="Contact" positionX="261" positionY="369" width="128" height="118"/>
         <element name="Degree" positionX="-72" positionY="423" width="128" height="88"/>
         <element name="EducationCollege" positionX="-63" positionY="287" width="128" height="88"/>
         <element name="EducationHighschool" positionX="-72" positionY="74" width="128" height="58"/>
         <element name="EmplomerInformation" positionX="259" positionY="-63" width="128" height="193"/>
         <element name="Employment" positionX="79" positionY="-67" width="128" height="105"/>
+        <element name="Company" positionX="115" positionY="731" width="128" height="103"/>
+        <element name="Lead" positionX="115" positionY="549" width="128" height="103"/>
         <element name="Personal" positionX="-216" positionY="-297" width="128" height="210"/>
         <element name="PositionInformation" positionX="259" positionY="146" width="128" height="133"/>
         <element name="ReferenceInformation" positionX="268" positionY="-369" width="128" height="133"/>
         <element name="References" positionX="72" positionY="-369" width="128" height="73"/>
         <element name="Skills" positionX="-72" positionY="-297" width="128" height="58"/>
-        <element name="Job" positionX="-9" positionY="-216" width="128" height="120"/>
-        <element name="Contact" positionX="0" positionY="-207" width="128" height="150"/>
-        <element name="Lead" positionX="9" positionY="-198" width="128" height="135"/>
+        <element name="Job" positionX="124" positionY="909" width="128" height="133"/>
     </elements>
 </model>
